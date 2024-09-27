@@ -9,10 +9,10 @@ public class MySQL2 {
     private static Connection connection;
 
     public static void createConnection() throws Exception {
-        String database = "DATABASE NAME";
-        String userName = "USER NAME";
-        String password = "PASSWORD";
-        String port = "PORT";
+        String database = "shopapp";
+        String userName = "root";
+        String password = "3012";
+        String port = "3306";
 
         if (connection == null) {
             Class.forName("com.mysql.cj.jdbc.Driver");

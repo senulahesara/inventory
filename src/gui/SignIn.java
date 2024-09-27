@@ -22,11 +22,9 @@ public class SignIn extends javax.swing.JFrame {
     }
 
     public static void setEmployeeEmail(String employeeEmail) {
-        
+
         SignIn.employeeEmail = employeeEmail;
     }
-
-    
 
     /**
      * Creates new form signin
@@ -163,9 +161,8 @@ public class SignIn extends javax.swing.JFrame {
                     Home home = new Home(email, fName, lName);
                     home.setVisible(true);
                     this.dispose();
-                    
+
                     setEmployeeEmail(email);
-                    
 
                 } else {
 
